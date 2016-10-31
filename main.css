@@ -48,12 +48,14 @@ li a:hover {
 body {
 	font-family:helvetica;
     overflow-x: hidden;
+	margin: 0;
 }
 
 .save-the-date {
 	display: inline-block;
     padding-top: 25px;
     padding-right: 75px;
+	text-align: center;
 }
 
 .about-tedx {
@@ -92,6 +94,7 @@ body {
 	color: black;
 	font-size: 16px;
 	line-height: 22px;
+	padding-right: 20px;
 }
 
 .button {
@@ -131,6 +134,7 @@ body {
 	justify-content: center;
 	padding-left: 25%;
 	width: 50%;
+	padding-bottom: 30px;
 }
 
 hr {
@@ -144,4 +148,192 @@ hr {
     color: #aaa;
     margin: 8px 20px;
     margin-top: 20px;
+}
+
+.footer {
+	background-color: black;
+	height: 250px;
+	border: none;
+}
+
+.footer--title {
+	color: white;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.footer--email {
+	padding-top: 30px;
+	color: white;
+	text-decoration: none;
+}
+
+.footer--notice {
+	color: white;
+	padding-top: 75px;
+	font-size: 12px;
+}
+
+.footer--follow-us {
+	color: white;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.fblogo {
+	height: 30px;
+	width: 30px;
+	margin-right: 25px;
+	margin-top: 10px;
+	border: 1px black;
+	border-radius: 2px;
+}
+
+.twitterlogo {
+	height: 30px;
+	width: 30px;
+	border: 1px black;
+	border-radius: 2px;
+}
+
+.footer--content {
+	padding-left: 60px;
+	padding-top: 40px;
+}
+
+.footer--left {
+	width: 60%;
+	display: inline-block;
+}
+
+.footer--right {
+	width: 40%;
+	display: inline-block;
+	float: right;
+}
+
+.break {
+	margin-top:	350px;
+}
+
+@media screen and (max-width: 1400px) {
+	.second-section {
+		width: 60%;
+		padding-left: 20%;
+	}
+	.what-is-ted {
+		padding-right: 30px;
+	}
+}
+
+@media screen and (max-width: 1280px) {
+	.second-section {
+		width: 70%;
+		padding-left: 15%;
+	}
+}
+
+@media screen and (max-width: 1080px) {
+	.nav-bar {
+		padding-left: 17%;
+	}
+	li a {
+		padding: 20px 12px;
+		font-size: 14px;
+	}
+
+	#logo {
+		height: 75px;
+	}
+	
+	.save-the-date {
+		padding-right: 75px;
+		padding-top: 0;
+	}
+	
+	#flier {
+		height: 220px;
+	}
+
+	.about-tedx {
+		display: inline-block;
+		padding-top: 25px;
+		width: 50%;
+	}
+
+	.what-is-ted-section {
+		display: inline-block;
+		padding-top: 25px;
+		width: 50%;
+	}
+
+	.title-text {
+		color: red;
+		font-size: 22px;
+		font-weight: bold;
+		text-align: center;
+	}
+
+	.what-is-ted-title {
+		color: red;
+		font-size: 18px;
+		font-weight: bold;
+		text-align: left;
+	}
+
+	.sub-text {
+		color: black;
+		font-size: 18px;
+		line-height: 24px;
+	}
+
+	.what-is-ted {
+		font-size: 15px;
+		line-height: 22px;
+		padding-right: 20px;
+	}
+
+	.button {
+		padding: 12px 28px;
+		font-size: 14.5px;
+		width: 80px;
+		margin-top: 10px;
+	}
+	
+	.break {
+		margin-top: 200px;
+	}
+
+}
+
+@media screen and (max-width: 900px) {
+	
+	.footer--title {
+	font-size: 18px;
+	}
+
+	.footer--notice {
+		padding-top: 60px;
+		font-size: 12px;
+	}
+
+	.footer--follow-us {
+		font-size: 18px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	
+	.nav-bar {
+		padding-left: 5%;
+	}
+	
+	li a {
+		padding: 20px 10px;
+		font-size: 12px;
+	}
+	
+	#logo {
+		height: 60px;
+	}
 }
