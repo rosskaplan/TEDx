@@ -17,6 +17,7 @@ li a {
     text-align: center;
     padding: 30px 16px;
     text-decoration: none;
+    font-size: 18px;
 }
 
 li a:hover {
@@ -39,6 +40,10 @@ li a:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#cooper-image {
+    width: 800px;
 }
 
 .nav-bar {
