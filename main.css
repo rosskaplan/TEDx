@@ -35,6 +35,12 @@ li a:hover {
 	height: 350px;
 }
 
+.cooper-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .nav-bar {
 	position: relative;
 	top: 0px;
@@ -63,6 +69,30 @@ body {
 	display: inline-block;
     padding-top: 25px;
 	width: 50%;
+}
+
+.about-the-cooper-union {
+    padding-top: 20px;
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.about-the-cooper-union-title {
+    font-size: 23px;
+    font-weight: bold;
+    color: red;
+    text-align: left;
+    line-height: 28px;
+}
+
+.about-the-cooper-union-text {
+    padding-top: 15px;
+    color: black;
+    font-size: 17px;
+    line-height: 28px;
 }
 
 .what-is-ted-section {
