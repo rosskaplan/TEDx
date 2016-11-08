@@ -1,3 +1,7 @@
+p{
+    display:inline;
+}
+
 ul {
 	display: inline;
     list-style-type: none;
@@ -22,6 +26,14 @@ li a {
 
 li a:hover {
     color: red;
+}
+
+
+span.chosen-speaker{
+    color:red;
+}
+td{
+    padding: 15px;
 }
 
 #logo {
@@ -68,7 +80,16 @@ body {
     border-right: #d0c8c8 10vw solid;
 }
 
-body.about {
+body.aboutTED {
+    border-left: #d0c8c8 8vw solid;
+    border-right: #d0c8c8 8vw solid;
+}
+
+body.about{
+    border-left: #d0c8c8 8vw solid;
+    border-right: #d0c8c8 8vw solid;
+}
+body.whoarewe{
     border-left: #d0c8c8 8vw solid;
     border-right: #d0c8c8 8vw solid;
 }
@@ -151,7 +172,7 @@ body.about {
     text-align: center;
     text-decoration: none;
     font-size: 16px;
-	width: 90px;
+	width: 150px;
 	margin: auto;
 	display: block;
 	margin-top: 10px;
@@ -197,6 +218,12 @@ body.about {
     flex-direction: column;
     padding-left: 50px;
     justify-content: center;
+}
+
+.bio-speakers-text{
+    font-size: 16px;
+    line-height: 20px;
+    padding-bottom: 20px;
 }
 
 .bio-name {
@@ -315,6 +342,16 @@ hr {
     body.about {
         border: none;
     }
+    body.aboutTED {
+        border-left: #d0c8c8 8vw solid;
+        border-right: #d0c8c8 8vw solid;
+    }
+
+    body.whoarewe{
+        border-left: #d0c8c8 8vw solid;
+        border-right: #d0c8c8 8vw solid;
+    }
+
 }
 
 @media screen and (max-width: 1080px) {
@@ -392,6 +429,10 @@ hr {
 }
 
 .bio-text {
+    font-size: 14px;
+    line-height: 18px;
+}
+.bio-speakers-text{
     font-size: 14px;
     line-height: 18px;
 }
