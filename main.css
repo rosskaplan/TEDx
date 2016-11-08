@@ -337,3 +337,93 @@ hr {
 		height: 60px;
 	}
 }
+
+@media screen and (max-width: 475px) {
+
+    .footer--content {
+        padding-left: 30px;
+    }
+
+    .footer--right {
+        width: 30%;
+    }
+
+    .first-section {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    
+    .save-the-date {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-bottom: 15px;
+    }
+
+    .flier {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0;
+        height: 220px;
+    }
+
+    .second-section {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .what-is-ted-section {
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-bottom: 15px;
+        width: 100%;
+    }
+
+    .about-tedx {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0;
+        width: 100%;
+    }
+    
+    .break {
+        margin: 0;
+    }
+    
+    hr.hr-mobile {
+        margin: 0;
+        color: white;
+        font-size: 0px;
+    }
+
+    .nav-bar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    #logo {
+        height: 100px;
+    }
+    .logo-class {
+        margin: auto;
+    }
+
+    li a {
+        font-size: 14px;
+        padding: 20px 5px;
+        font-weight: 700;
+    }
+
+    ul {
+        display: flex;
+        justify-content: center;
+    }
+}
