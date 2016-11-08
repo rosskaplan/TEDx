@@ -19,7 +19,6 @@ li a {
     text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
     color: red;
 }
@@ -220,6 +219,7 @@ hr {
 
 @media screen and (max-width: 1400px) {
 	.second-section {
+
 		width: 70%;
 		padding-left: 15%;
 	}
@@ -233,12 +233,14 @@ hr {
 		width: 70%;
 		padding-left: 15%;
 	}
+
     body {
         border: none;
     }
 }
 
 @media screen and (max-width: 1080px) {
+
 	li a {
 		padding: 20px 12px;
 		font-size: 14px;
@@ -325,7 +327,7 @@ hr {
 }
 
 @media screen and (max-width: 768px) {
-	
+
 	li a {
 		padding: 20px 10px;
 		font-size: 12px;
