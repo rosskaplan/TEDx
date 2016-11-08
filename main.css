@@ -43,7 +43,12 @@ li a:hover {
 }
 
 #cooper-image {
-    width: 800px;
+    width: 100%;
+}
+
+.bio-image {
+    width: 350px;
+    max-height: 250px;
 }
 
 .nav-bar {
@@ -63,6 +68,11 @@ body {
     border-right: #d0c8c8 10vw solid;
 }
 
+body.about {
+    border-left: #d0c8c8 8vw solid;
+    border-right: #d0c8c8 8vw solid;
+}
+
 .save-the-date {
 	display: inline-block;
     padding-top: 25px;
@@ -78,7 +88,7 @@ body {
 
 .about-the-cooper-union {
     padding-top: 20px;
-    width: 75%;
+    width: 90%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -200,7 +210,7 @@ body {
 
 .bio-text {
     font-size: 16px;
-    line-height: 22px;
+    line-height: 20px;
 }
 
 hr {
@@ -302,13 +312,16 @@ hr {
     body {
         border: none;
     }
+    body.about {
+        border: none;
+    }
 }
 
 @media screen and (max-width: 1080px) {
 
 	li a {
 		padding: 20px 12px;
-		font-size: 14px;
+		font-size: 16px;
 	}
 
 	#logo {
@@ -373,6 +386,16 @@ hr {
 		margin-top: 200px;
 	}
 
+.bio-name {
+	font-size: 18px;
+    padding-bottom: 15px;
+}
+
+.bio-text {
+    font-size: 14px;
+    line-height: 18px;
+}
+
 }
 
 @media screen and (max-width: 900px) {
@@ -389,6 +412,25 @@ hr {
 	.footer--follow-us {
 		font-size: 18px;
 	}
+
+    .bio-pic {
+        flex-direction: column;
+    }
+    
+    .bio-image {
+        margin: auto;
+    }
+    
+    .bio-name-text {
+        padding-left: 0;
+        width: 350px;
+        margin: auto;
+    }
+
+    .bio-name {
+        margin: auto;
+        padding-top: 15px;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -410,7 +452,7 @@ hr {
     }
 
     .footer--right {
-        width: 30%;
+        width: 35%;
     }
 
     .first-section {
@@ -459,7 +501,7 @@ hr {
     }
     
     .break {
-        margin: 0;
+        margin-top: 100px;
     }
     
     hr.hr-mobile {
@@ -490,5 +532,23 @@ hr {
     ul {
         display: flex;
         justify-content: center;
+    }
+
+    .about-the-cooper-union {
+        padding: 0 30px;
+        padding-top: 20px;
+        width: 85%;
+    }
+
+    .bio-pic {
+        width: 100%;
+    }
+    
+    .bio-name-text {
+        width: 100%;
+    }
+
+    .footer--email {
+        padding-top: 45px;
     }
 }
