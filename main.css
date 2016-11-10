@@ -63,6 +63,11 @@ td{
     max-height: 250px;
 }
 
+.bio-image-2{
+    width: 250px;
+    margin: auto;
+}
+
 .nav-bar {
 	position: relative;
 	top: 0px;
