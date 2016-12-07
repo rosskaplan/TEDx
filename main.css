@@ -597,4 +597,8 @@ hr {
     .footer--email {
         padding-top: 45px;
     }
+
+    .bio-image {
+    width: 250px;
+}
 }
