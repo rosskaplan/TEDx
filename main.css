@@ -69,6 +69,7 @@ td{
 }
 
 .speaker-image {
+    margin-top: 20px;
     width: 275px;
     height: 250px;
 }
@@ -219,7 +220,8 @@ body.whoarewe{
 
     display: flex;
     justify-content: center;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 
 .bio-name-text {
