@@ -166,6 +166,11 @@ body.whoarewe{
 	text-align: left;
 }
 
+.sponsorship {
+    color: red;
+    text-decoration: none;
+}
+
 .sub-text {
 	color: black;
 	font-size: 20px;
