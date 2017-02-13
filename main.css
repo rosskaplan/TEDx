@@ -28,6 +28,9 @@ li a:hover {
     color: red;
 }
 
+.top-space {
+    padding-top: 20px;
+}
 
 span.chosen-speaker{
     color:red;
