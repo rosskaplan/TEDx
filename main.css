@@ -28,6 +28,9 @@ li a:hover {
     color: red;
 }
 
+.top-space {
+    padding-top: 20px;
+}
 
 span.chosen-speaker{
     color:red;
@@ -161,6 +164,11 @@ body.whoarewe{
 	font-size: 18px;
 	font-weight: bold;
 	text-align: left;
+}
+
+.sponsorship {
+    color: red;
+    text-decoration: none;
 }
 
 .sub-text {
