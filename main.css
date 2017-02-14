@@ -75,6 +75,7 @@ td{
     margin-top: 20px;
     width: 275px;
     height: 250px;
+    float: left;
 }
 
 .nav-bar {
@@ -226,10 +227,9 @@ body.whoarewe{
 
 .bio-pic {
 
-    display: flex;
-    justify-content: center;
     padding-bottom: 15px;
     padding-top: 15px;
+    display: inline-flex;
 }
 
 .bio-name-text {
@@ -238,6 +238,8 @@ body.whoarewe{
     flex-direction: column;
     padding-left: 50px;
     justify-content: center;
+    width: 70%;
+    float: left;
 }
 
 .bio-speakers-text{
