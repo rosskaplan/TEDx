@@ -7,7 +7,6 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
     background-color: #fff;
 }
 
@@ -138,6 +137,7 @@ body.black-background{
     animation: fadein 3s;
     display: block;
     margin: auto;
+    max-height: 85vh;
 
 }
 
@@ -457,7 +457,6 @@ hr {
 
     .one-png {
         width: 700px;
-        max-height: 80%;
     }
 
     .sponsor-sub-image {
