@@ -302,7 +302,8 @@ to   { opacity: 1; }
 .second-section {
 	display: flex;
 	justify-content: center;
-	padding-left: 20%;
+	padding-left: 15%;
+	padding-right: 15%;
 	padding-bottom: 30px;
 }
 
@@ -609,6 +610,30 @@ hr {
 
 @media screen and (max-width: 768px) {
 
+    .second-section {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .what-is-ted-section {
+        padding: 0;
+        padding-top: 20px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding-bottom: 15px;
+        width: 100%;
+    }
+
+    .about-tedx {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0;
+        width: 100%;
+    }
+    
     .sponsor-sub-image {
         width: 150px;
         flex-wrap: wrap;
@@ -669,29 +694,6 @@ hr {
         height: 220px;
     }
 
-    .second-section {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-    }
-
-    .what-is-ted-section {
-        padding: 0;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        padding-bottom: 15px;
-        width: 100%;
-    }
-
-    .about-tedx {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        padding: 0;
-        width: 100%;
-    }
-    
     .break {
         margin-top: 100px;
     }
