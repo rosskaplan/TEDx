@@ -196,6 +196,8 @@ to   { opacity: 1; }
 }
 
 .about-the-cooper-union-text {
+    text-align: justify;
+    text-justify: inter-word;
     padding-top: 15px;
     color: black;
     font-size: 17px;
@@ -261,6 +263,7 @@ to   { opacity: 1; }
 }
 
 .what-is-ted {
+    text-align: justify;
 	color: black;
 	font-size: 16px;
 	line-height: 22px;
@@ -325,6 +328,7 @@ to   { opacity: 1; }
 }
 
 .bio-speakers-text{
+    text-align: justify;
     font-size: 16px;
     line-height: 20px;
     padding-bottom: 20px;
@@ -340,6 +344,7 @@ to   { opacity: 1; }
 }
 
 .bio-text {
+    text-align: justify;
     font-size: 16px;
     line-height: 20px;
 }
@@ -597,6 +602,7 @@ hr {
     }
     
     .bio-name-text {
+        text-align: justify;
         padding-left: 0;
         width: 350px;
         margin: auto;
