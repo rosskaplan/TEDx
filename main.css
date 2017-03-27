@@ -31,11 +31,27 @@ li a:hover {
     padding-top: 20px;
 }
 
+.agenda-bullets {
+
+    display: grid;
+    padding: 0;
+    line-height: 6px;
+    width: 150%;
+    position: relative;
+    padding-left: 9px;
+    left: 250px;
+
+}
+
 span.chosen-speaker{
     color:red;
 }
 td{
     padding: 15px;
+}
+
+.about-the-cooper-union > td {
+    padding: 0px;
 }
 
 #logo {
@@ -67,7 +83,7 @@ td{
 }
 
 .bio-image {
-    width: 350px;
+    width: 275px;
     max-height: 250px;
 }
 
@@ -622,6 +638,10 @@ hr {
 
 @media screen and (max-width: 768px) {
 
+    .agenda-bullets {
+        left: 200px;
+    }
+
     .second-section {
         display: flex;
         justify-content: center;
@@ -667,6 +687,15 @@ hr {
 
     .one-png {
         width: 450px;
+    }
+}
+
+@media screen and (max-width: 680px) {
+
+    .agenda-bullets {
+        padding: 20px 0;
+        left: 50px;
+        line-height: 20px;
     }
 }
 
@@ -756,5 +785,7 @@ hr {
 
     .bio-image {
     width: 250px;
+
+    
 }
 }
