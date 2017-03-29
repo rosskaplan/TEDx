@@ -33,13 +33,12 @@ li a:hover {
 
 .agenda-bullets {
 
-    display: grid;
+    display: block;
     padding: 0;
     line-height: 6px;
     width: 150%;
     position: relative;
-    padding-left: 9px;
-    left: 250px;
+    left: 100px;
 
 }
 
@@ -51,7 +50,7 @@ td{
 }
 
 .about-the-cooper-union > td {
-    padding: 0px;
+    padding-left: 150px;
 }
 
 #logo {
